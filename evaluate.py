@@ -38,7 +38,7 @@ def evaluate(env, agent, test_times, render=False):
             total_reward += reward
             steps += 1
             if render:
-                env.render();
+                env.render()
             if done:
                 break
         eval_reward.append(total_reward)
